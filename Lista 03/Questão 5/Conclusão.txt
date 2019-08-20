@@ -1,0 +1,5 @@
+Um algoritmo determinístico representa um único caminho de uma entrada para um resultado, um algoritmo não determinístico representa um caminho resultante em muitos caminhos, alguns dos quais podem chegar ao mesmo resultado e alguns dos quais podem chegar a resultados únicos. Esta propriedade é chamada matematicamente de modelo de computação "não determinístico", como o autômato finito não determinístico.
+
+A - Não Determinístico
+B - Determinístico
+C - Não Determinístico 
