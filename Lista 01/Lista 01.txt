@@ -1,0 +1,35 @@
+Sistema de Operação em Máquina de Bebidas
+
+A - Inserir Valor
+B - R$ 1,00 
+C - R$ 1,50
+D - R$ 2,00
+E - R$ 2,50
+F - R$ 3,00
+S - Confirmar Opção
+N - Não Confirmar Opção
+X - Finalizar
+
+Estado Inicial 
+
+0 - Inicio		:(q1)
+
+1 - Insere Valor 	:(q1,A => q2)
+
+2 - Escolhe Opção 	:(q2,B => q3)
+			:(q2,C => q4) 
+			:(q2,D => q5)		 
+			:(q2,E => q6) 
+			:(q2,F => q7) 
+
+3 - Confirma Opção 	:(q3,S => q8)	3.1 - Não Confirma Opção 	:(q3,N => q9)
+			:(q4,S => q8)					:(q4,N => q9)
+			:(q5,S => q8)		 			:(q5,N => q9)
+			:(q6,S => q8) 					:(q6,N => q9)
+			:(q7,S => q8) 					:(q7,N => q9)
+
+4 - Finaliza		:(q8,X => q10)
+			:(q9,X => q10)
+
+
+Estado Final: q10
